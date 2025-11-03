@@ -18,7 +18,7 @@ jobs:
           cml runner launch --reuse \
             --labels=cml-runner \
             --cloud=aws \
-            --cloud-region=us-east-1 \
+            --cloud-region=us-west-2 \
             --cloud-hdd-size=40 \
             --cloud-type=m7i-flex.large \
             --idle-timeout=1200
