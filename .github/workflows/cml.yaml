@@ -19,9 +19,9 @@ jobs:
             --labels=cml-runner \
             --cloud=aws \
             --cloud-region=us-west-2 \
-            --cloud-hdd-size=40 \
             --cloud-type=m7i-flex.large \
-            --cloud-image=ubuntu-22.04 \
+            --cloud-hdd-size=40 \
+            --cloud-aws-ami=ami-0360c520857e3138f \
             --idle-timeout=1200
 
   train-and-report:
