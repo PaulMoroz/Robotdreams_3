@@ -18,10 +18,9 @@ jobs:
           cml runner launch --reuse \
             --labels=cml-runner \
             --cloud=aws \
-            --cloud-region=us-west-2 \
+            --cloud-region=us-east-1 \
             --cloud-type=m7i-flex.large \
             --cloud-hdd-size=40 \
-            --cloud-aws-ami=ami-0360c520857e3138f \
             --idle-timeout=1200
 
   train-and-report:
