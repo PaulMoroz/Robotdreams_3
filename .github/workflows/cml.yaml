@@ -21,6 +21,7 @@ jobs:
             --cloud-region=us-west-2 \
             --cloud-hdd-size=40 \
             --cloud-type=m7i-flex.large \
+            --cloud-image=ubuntu-22.04 \
             --idle-timeout=1200
 
   train-and-report:
